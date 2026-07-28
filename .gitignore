@@ -1,0 +1,17 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+
+# Rust / wasm-pack build output
+quantum_markov/target/
+quantum_markov/pkg/
+src/pkg/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
