@@ -5,10 +5,9 @@
 [![Rust](https://img.shields.io/badge/Rust-Wasm-000000?logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
-*An open-source instrument exploring the Observer Effect, cursor prediction, and what it means for a machine to know you.A browser-based 3D art piece that turns the Observer Effect from quantum physics into something you can feel: a glowing object in a black void that only becomes real where you actually look.*
+*An open-source, browser-based 3D art piece that turns the Observer Effect from quantum physics into something you can feel — a glowing object in a black void that only becomes real where you actually look. Part art, part experiment in cursor prediction and what it means for a machine to begin to know you.*
 
 ---
-
 
 ## Why this exists
 
@@ -16,7 +15,8 @@ I started this project as a journey in software engineering, learning web develo
 
 That was the philosophical seed. But the deeper reason I kept pushing was personal: I wanted to build something that reflected genuine engineering depth, not a decorated webpage — something a senior engineer, a computer science professor, or a twenty-year veteran could look at and recognize real craft across physics, mathematics, systems architecture, and design. Not for applause. Because I was learning, and I wanted the thing I learned on to be worth the years I'll spend telling people I built it.
 
-Five months into building it, the AI sessions I was working in lost its entire context. Everything — the architecture, the code, the reasoning — was gone in an instant, except for what was still in my mind. , I rebuilt the project from the transcripts. That failure is the reason this repository exists in its current form: a project whose memory now lives in files and git history, never again in conversation.But I would say It deepened my knowlegde about context engineering
+Five months into building it, the AI session I was working in lost its entire context. Everything — the architecture, the code, the reasoning — was gone in an instant, except for what was still in my mind. From the exported chat transcripts, I rebuilt the project piece by piece. That failure is the reason this repository exists in its current form: a project whose memory now lives in files and git history, never again in conversation. If anything, it deepened my understanding of context engineering.
+
 ## The Ultimate Hybrid
 
 This is the centerpiece of the repository (`src/main.js`) — the version that fuses every system explored across the project into one running piece. On load, a two-meter icosahedron appears at the center of an obsidian void. It reacts to the visitor in real time across five layers running simultaneously: vision, gaze, place, sound, and prediction.
@@ -92,7 +92,7 @@ No Rust installed? Swap `src/main.js` for `versions/cognitive-engine.main.js` or
 
 ## What's next: the Oracle
 
-This build achieved what it set out to do, but a full engineering audit surfaced real bugs underneath the ambition — a thread-safety crash in a later prototype, a predictor that could degenerate into repeating itself instead of genuinely predicting, and a few unverified performance claims. Rather than patch those in place, the next phase of this project is a ground-up rebuild of the prediction idea alone, done to a stricter standard: **The Oracle**, a transparent instrument where three separate prediction algorithms race in the open, score themselves live, and turn every session into reproducible research data. The full plan for it lives in [`SPEC.md`](./SPEC.md).
+This build achieved what it set out to do, but a full engineering audit surfaced real bugs underneath the ambition — a thread-safety crash in a later prototype, a predictor that could degenerate into repeating itself instead of genuinely predicting, and a few unverified performance claims. Rather than patch those in place, the next phase of this project is a ground-up rebuild of the prediction idea alone, done to a stricter standard: **The Oracle**, a transparent instrument where three separate prediction algorithms race in the open, score themselves live, and turn every session into reproducible research data. The full plan for it lives in [`PROPOSAL-V2.md`](./PROPOSAL-V2.md).
 
 ## License
 
