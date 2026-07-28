@@ -1,5 +1,10 @@
 # The Lattice of Uncertainty
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Three.js](https://img.shields.io/badge/Three.js-r160-000000?logo=three.js&logoColor=white)](https://threejs.org/)
+[![Rust](https://img.shields.io/badge/Rust-Wasm-000000?logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+
 *An open-source instrument exploring the Observer Effect, cursor prediction, and what it means for a machine to know you.A browser-based 3D art piece that turns the Observer Effect from quantum physics into something you can feel: a glowing object in a black void that only becomes real where you actually look.*
 
 ---
@@ -91,4 +96,4 @@ This build achieved what it set out to do, but a full engineering audit surfaced
 
 ## License
 
-MIT.
+Released under the [MIT License](LICENSE) — free to use, modify, and distribute with attribution. © 2026 Wali Khan.
